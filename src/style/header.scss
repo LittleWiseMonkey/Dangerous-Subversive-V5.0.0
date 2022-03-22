@@ -1,0 +1,110 @@
+.header 
+{
+    display: flex;
+    // background-color: var(--dark);
+    position: fixed;
+    color: var(--danWhite);
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+
+    //  IMAGE       /////
+    .imgContainer 
+    {
+        position: relative;
+        // background-color: green;
+        width: 80px;
+        padding: 10px 50px 0 20px;
+
+        img 
+        {
+            // margin-top: 1vh;
+            height: 77px;
+        }
+    }
+
+
+    //      TITLE       /////
+    .title
+    {
+        // background-color: orange;
+        width: 70vw;
+        padding-top: 40px;
+        padding-left: 10px;
+
+
+        h1  
+        {
+            font-family: Soviet;
+            font-size: 5vw;
+            letter-spacing: 5px;
+            line-height: 5vh;
+
+            display: inline-flex;
+            position: absolute;
+            top: 4vh;
+            left: 80px;
+
+            
+            clip-path: inset(0 0 0);
+            color: var(--danWhite);
+            transition: color 700ms;
+            cursor: pointer;
+
+            transition: color 2000ms;
+
+            span  
+            {
+                color: var(--banner);
+                font-size: 5vw;
+                line-height: 5vh;
+                letter-spacing: 5px;
+
+                transition: color 2000ms;
+            }
+        }
+    }
+
+    .title:hover
+    {
+        h1
+        {
+            color: var(--banner);
+        }
+
+        span
+        {
+            color: var(--danWhite);
+        }
+    }
+
+    //      THIRD PANEL       /////
+    .thirdBox 
+    {
+        // background-color: rgb(255, 0, 242);
+        width: 30vw;
+        text-align: right;
+        vertical-align: middle;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+
+
+//      STRAPLINE      ///////////
+
+.strapline 
+{
+    display: block;
+    // background-color: var(--strapline);
+    // background-attachment: fixed; 
+    position: absolute;
+    top: 100px;
+    left: 0;
+    height: 20px;
+    width: 100vw;
+    // z-index: 1;
+}

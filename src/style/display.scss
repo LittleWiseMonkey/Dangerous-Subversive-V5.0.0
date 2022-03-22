@@ -1,0 +1,13 @@
+.imgDisplay
+{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    box-sizing: border-box;
+    top: 200px;
+    left: 30vw;
+    margin: 25px;
+
+    height: 40vh;
+    width: 40vw;
+}

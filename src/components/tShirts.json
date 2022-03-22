@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "file": "tShirts/DanSubTG.gif",
+        "title": "Dangerous Subversive : tailgate",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 2,
+        "file": "tShirts/DanSubFlammable.gif",
+        "title": "Dangerous Subversive : flammable",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 3,
+        "file": "tShirts/DanSubWarn.gif",
+        "title": "Dangerous Subversive : warning",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 4,
+        "file": "tShirts/DarkBlueLAP.gif",
+        "title": "Lazy And Proud : original design",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 5,
+        "file": "tShirts/DarkBlueLAP_HI.gif",
+        "title": "Lazy And Proud : hyper-inactive",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 6,
+        "file": "tShirts/ForgiveMeFather.gif",
+        "title": "Forgive Me Father...",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 7,
+        "file": "tShirts/THC.gif",
+        "title": "Tetrahydrocannabinol",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 8,
+        "file": "tShirts/MDMA.gif",
+        "title": "3,4-Methyl​enedioxy​methamphetamine",
+        "width": 180,
+        "height": 159
+    },
+    {
+        "id": 9,
+        "file": "tShirts/LSD.gif",
+        "title": "Lysergic Acid Diethylamide",
+        "width": 180,
+        "height": 159
+    }
+]

@@ -1,0 +1,42 @@
+@import url("./App.scss");
+
+.imgBox
+{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    top: 200px;
+    left: 25px;
+    margin: 25px;
+    background-color: var(--frostedGlass);
+    backdrop-filter: blur(10px);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+
+    img
+    {
+        margin-top: 10px;
+        width: 180px;
+        height: 159px;
+    }
+
+    p
+    {
+        position: relative;
+        margin-top: 20px;
+        color: var(--danWhite);        
+    a
+        {
+            text-decoration: none;
+        }
+    }
+}
+
+.imgBox:hover
+{
+    background-color: var(--frostedRed);
+}
